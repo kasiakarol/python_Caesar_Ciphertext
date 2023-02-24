@@ -20,7 +20,7 @@ while True:
         try:
             shift_caesar = int(input("Type the shift number:\n"))
         except ValueError:
-            print("Incorrect input")
+            print("Incorrect input.")
             break
         if shift_caesar > 26:
             shift_caesar = shift_caesar % 26
